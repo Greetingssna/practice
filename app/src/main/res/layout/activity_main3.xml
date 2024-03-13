@@ -19,6 +19,7 @@
             android:layout_marginLeft="30dp"
             app:srcCompat="@drawable/pic"/>
 
+
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
