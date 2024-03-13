@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
+import android.view.View;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -15,5 +16,14 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
 
+    }
+    public void onClick1(View view){
+        Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
+    }
+
+    public void onClick(View view){
+        Intent intent = new Intent(this, MainActivity4.class);
+        startActivity(intent);
     }
 }
