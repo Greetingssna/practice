@@ -18,12 +18,12 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
     public void onClick1(View view){
-        Intent intent = new Intent(this, MainActivity3.class);
+        Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
         startActivity(intent);
     }
 
-    public void onClick(View view){
-        Intent intent = new Intent(this, MainActivity4.class);
+    public void onClick2(View view){
+        Intent intent = new Intent(MainActivity2.this, MainActivity4.class);
         startActivity(intent);
     }
 }
